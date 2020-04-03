@@ -55,6 +55,11 @@ public class Main {
         item = JOptionPane.showInputDialog(null, "Digite el tipo de ítem (Potion, Elixir, " +
                 "Ammo y Weapon)");
         if(item.equals("Potion")){
+            String name = JOptionPane.showInputDialog(null, "Digite el nombre del ítem");
+            int weight = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el peso" +
+                    " del ítem"));
+            String description = JOptionPane.showInputDialog(null, "Digite una descripcion" +
+                    " del ítem");
             int reuseTime = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el " +
                     "tiempo de reutilización del item de curación"));
             String level = JOptionPane.showInputDialog(null, "Digite el nivel del ítem de " +
@@ -63,10 +68,15 @@ public class Main {
                     "curación (Mana, Life)");;
             int amount = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite la " +
                     "cantidad de la poción"));
-            Potion nPotion = new Potion(reuseTime,level,type,amount);
+            Potion nPotion = new Potion(name,weight,description,reuseTime,level,type,amount);
             PersonalItems.add(nPotion);
         }
         else if(item.equals("Elixir")){
+            String name = JOptionPane.showInputDialog(null, "Digite el nombre del ítem");
+            int weight = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el peso " +
+                    "del ítem"));
+            String description = JOptionPane.showInputDialog(null, "Digite una descripcion" +
+                    " del ítem");
             int reuseTime = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el " +
                     "tiempo de reutilización del item de curación"));
             String level = JOptionPane.showInputDialog(null, "Digite el nivel del ítem de " +
@@ -77,20 +87,25 @@ public class Main {
                     "cantidad del elixir"));
             int time = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el " +
                     "tiempo del intervalo de curación"));
-            Elixir nElixir = new Elixir(reuseTime,level,type,amount,time);
+            Elixir nElixir = new Elixir(name, weight,description, reuseTime,level,type,amount,time);
             PersonalItems.add(nElixir);
         }
         else if(item.equals("Ammo")){
+            String name = JOptionPane.showInputDialog(null, "Digite el nombre del ítem");
+            int weight = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el peso " +
+                    "del ítem"));
+            String description = JOptionPane.showInputDialog(null, "Digite una descripcion" +
+                    " del ítem");
             int remainingUses = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite " +
                     "los usos restantes"));
             byte equipped = Byte.parseByte(JOptionPane.showInputDialog(null, "1. Equipada\n" +
                     "2. No equipada"));
             if(equipped==1){
-                Ammo nAmmo = new Ammo(remainingUses,true);
+                Ammo nAmmo = new Ammo(name, weight, description, remainingUses,true);
                 PersonalItems.add(nAmmo);
             }
             else if(equipped==2){
-                Ammo nAmmo = new Ammo(remainingUses,false);
+                Ammo nAmmo = new Ammo(name, weight, description, remainingUses,false);
                 PersonalItems.add(nAmmo);
             }
             else{
@@ -98,6 +113,11 @@ public class Main {
             }
         }
         else if(item.equals("Weapon")){
+            String name = JOptionPane.showInputDialog(null, "Digite el nombre del ítem");
+            int weight = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el peso " +
+                    "del ítem"));
+            String description = JOptionPane.showInputDialog(null, "Digite una descripcion" +
+                    " del ítem");
             int remainingUses = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite " +
                     "los usos restantes"));
             String type = JOptionPane.showInputDialog(null, "Digite el tipo de arma (Bow, " +
@@ -110,7 +130,7 @@ public class Main {
                     "empuñadura (One-Handed, Two-Handed)");
             int level = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite el nivel " +
                     "del arma"));
-            Weapon nWeapon = new Weapon(remainingUses,type,speed,damage,wieldType,level);
+            Weapon nWeapon = new Weapon(name, weight, description,remainingUses,type,speed,damage,wieldType,level);
             PersonalItems.add(nWeapon);
         }
         else{
@@ -124,22 +144,22 @@ public class Main {
         PersonalItems.forEach((a)->{
             if(a.id==id){
                 if(a instanceof  Potion){
-                    Potion aux = new Potion(((Potion) a).reuseTime,((Potion) a).level,((Potion) a).type,((Potion) a).getAmount());
+                    Potion aux = new Potion(a.name, a.weight, a.description ,((Potion) a).reuseTime,((Potion) a).level,((Potion) a).type,((Potion) a).getAmount());
                     aux.setId(a.id);
                     CommonItems.add(aux);
                 }
                 else if(a instanceof  Elixir){
-                    Elixir aux = new Elixir(((Elixir) a).reuseTime,((Elixir) a).level,((Elixir) a).type,((Elixir) a).getAmount(),((Elixir) a).getTime());
+                    Elixir aux = new Elixir(a.name, a.weight, a.description, ((Elixir) a).reuseTime,((Elixir) a).level,((Elixir) a).type,((Elixir) a).getAmount(),((Elixir) a).getTime());
                     aux.setId(a.id);
                     CommonItems.add(aux);
                 }
                 else if(a instanceof  Ammo){
-                    Ammo aux = new Ammo(((Ammo) a).remainingUses,((Ammo) a).isEquipped());
+                    Ammo aux = new Ammo(a.name, a.weight, a.description, ((Ammo) a).remainingUses,((Ammo) a).isEquipped());
                     aux.setId(a.id);
                     CommonItems.add(aux);
                 }
                 else if(a instanceof Weapon){
-                    Weapon aux = new Weapon(((Weapon) a).remainingUses,((Weapon) a).getType(),((Weapon) a).getSpeed(),((Weapon) a).getDamage(),((Weapon) a).getWieldType(),((Weapon) a).getLevel());
+                    Weapon aux = new Weapon(a.name, a.weight, a.description, ((Weapon) a).remainingUses,((Weapon) a).getType(),((Weapon) a).getSpeed(),((Weapon) a).getDamage(),((Weapon) a).getWieldType(),((Weapon) a).getLevel());
                     aux.setId(a.id);
                     CommonItems.add(aux);
                 }
