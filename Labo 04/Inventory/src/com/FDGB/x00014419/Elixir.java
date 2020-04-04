@@ -34,6 +34,7 @@ public class Elixir extends HealthItem{
             if(time%5==0){
                 JOptionPane.showMessageDialog(null,"Se a regenerado vida");
             }
+            time--;
         }
     }
 

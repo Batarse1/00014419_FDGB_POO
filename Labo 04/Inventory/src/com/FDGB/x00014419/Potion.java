@@ -21,7 +21,8 @@ public class Potion extends HealthItem{
 
     @Override
     public void drink(){
-        JOptionPane.showMessageDialog(null,"Se a tomado el Potion");
+        JOptionPane.showMessageDialog(null,"Se a tomado la pocion");
+        amount = 0;
     }
 
     @Override
