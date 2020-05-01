@@ -27,6 +27,7 @@ namespace Labo_06
                             evaluationList = EliminarEvaluacion(evaluationList);
                             break;
                         case 4:
+                            Console.WriteLine("El promedio de sus evaluaciones es " + CalcularNota.Calcular(evaluationList));
                             break;
                         default:
                             throw new OutOfLimitsException("Opción inválida, Digite un número entre 1 y 4...");
@@ -249,20 +250,17 @@ namespace Labo_06
                 if (element is Laboratorio)
                 {
                     Console.WriteLine("Laboratorio");
-                    Console.WriteLine("Nombre: " + element.Nombre);
-                    Console.WriteLine("Porcentaje: " + element.Porcentaje);                    
+                    Console.WriteLine(((Laboratorio)element).ToString());
                 }
                 else if (element is Parcial)
                 {
-                    Console.WriteLine("Parcial");
-                    Console.WriteLine("Nombre: " + element.Nombre);
-                    Console.WriteLine("Porcentaje: " + element.Porcentaje);                    
+                    Console.WriteLine("Parcial");                    
+                    Console.WriteLine(((Parcial)element).ToString());
                 }
                 else
-                {
+                {   
                     Console.WriteLine("Tarea");
-                    Console.WriteLine("Nombre: " + element.Nombre);
-                    Console.WriteLine("Porcentaje: " + element.Porcentaje);                    
+                    Console.WriteLine(((Tarea)element).ToString());
                 }
                 Console.WriteLine();
             }
@@ -308,20 +306,17 @@ namespace Labo_06
                             if (element is Laboratorio)
                             {
                                 Console.WriteLine("Laboratorio");
-                                Console.WriteLine("Nombre: " + element.Nombre);
-                                Console.WriteLine("Porcentaje: " + element.Porcentaje);                    
+                                Console.WriteLine(((Laboratorio)element).ToString());
                             }
                             else if (element is Parcial)
                             {
-                                Console.WriteLine("Parcial");
-                                Console.WriteLine("Nombre: " + element.Nombre);
-                                Console.WriteLine("Porcentaje: " + element.Porcentaje);                    
+                                Console.WriteLine("Parcial");                    
+                                Console.WriteLine(((Parcial)element).ToString());
                             }
                             else
-                            {
+                            {   
                                 Console.WriteLine("Tarea");
-                                Console.WriteLine("Nombre: " + element.Nombre);
-                                Console.WriteLine("Porcentaje: " + element.Porcentaje);                    
+                                Console.WriteLine(((Tarea)element).ToString());
                             }
                             opt = Convert.ToByte(Console.ReadLine());
                             if (opt < 1 || opt > 2)

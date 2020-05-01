@@ -8,5 +8,10 @@
         {
             this.cantPreguntas = cantPreguntas;
         }
+
+        public override string ToString()
+        {
+            return $"{base.ToString()}{nameof(cantPreguntas)}: {cantPreguntas}";
+        }
     }
 }

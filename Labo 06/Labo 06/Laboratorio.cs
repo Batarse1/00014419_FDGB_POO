@@ -8,5 +8,10 @@
         {
             this.tipo = tipo;
         }
+
+        public override string ToString()
+        {
+            return $"{base.ToString()}{nameof(tipo)}: {tipo}";
+        }
     }
 }

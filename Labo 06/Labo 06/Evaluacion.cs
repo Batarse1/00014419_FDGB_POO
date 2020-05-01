@@ -13,5 +13,10 @@
         
         public int Porcentaje => porcentaje;
         public string Nombre => nombre;
+
+        public override string ToString()
+        {
+            return $"{nameof(porcentaje)}: {porcentaje}\n{nameof(nombre)}: {nombre}\n";
+        }
     }
 }

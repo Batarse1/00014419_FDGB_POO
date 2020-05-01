@@ -12,5 +12,10 @@ namespace Labo_06
         }
 
         public DateTime FechaEntrega => fechaEntrega;
+
+        public override string ToString()
+        {
+            return $"{base.ToString()}{nameof(fechaEntrega)}: {fechaEntrega}";
+        }
     }
 }
