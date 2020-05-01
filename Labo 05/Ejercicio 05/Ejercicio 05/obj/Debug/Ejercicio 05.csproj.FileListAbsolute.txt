@@ -1,0 +1,6 @@
+D:\Repositories\POO0120-FDGB-00014419\Labo 05\Ejercicio 05\Ejercicio 05\bin\Debug\Ejercicio_05.exe
+D:\Repositories\POO0120-FDGB-00014419\Labo 05\Ejercicio 05\Ejercicio 05\bin\Debug\Ejercicio_05.pdb
+D:\Repositories\POO0120-FDGB-00014419\Labo 05\Ejercicio 05\Ejercicio 05\obj\Debug\Ejercicio 05.csprojAssemblyReference.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 05\Ejercicio 05\Ejercicio 05\obj\Debug\Ejercicio 05.csproj.CoreCompileInputs.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 05\Ejercicio 05\Ejercicio 05\obj\Debug\Ejercicio_05.exe
+D:\Repositories\POO0120-FDGB-00014419\Labo 05\Ejercicio 05\Ejercicio 05\obj\Debug\Ejercicio_05.pdb
