@@ -1,0 +1,10 @@
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\bin\Debug\Labo_07.exe.config
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\bin\Debug\Labo_07.exe
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\bin\Debug\Labo_07.pdb
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\obj\Debug\Labo 07.csprojAssemblyReference.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\obj\Debug\Labo_07.Properties.Resources.resources
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\obj\Debug\Labo 07.csproj.GenerateResource.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\obj\Debug\Labo 07.csproj.CoreCompileInputs.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\obj\Debug\Labo_07.exe
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\obj\Debug\Labo_07.pdb
+D:\Repositories\POO0120-FDGB-00014419\Labo 07\obj\Debug\Labo_07.MainWindow.resources
