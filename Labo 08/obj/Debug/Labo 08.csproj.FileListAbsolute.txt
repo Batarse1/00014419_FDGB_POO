@@ -1,0 +1,12 @@
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\bin\Debug\Labo_08.exe.config
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\bin\Debug\Labo_08.pdb
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csprojAssemblyReference.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Properties.Resources.resources
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csproj.GenerateResource.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csproj.CoreCompileInputs.cache
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.exe
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.pdb
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.MainWindow.resources
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Login.resources
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csproj.CopyComplete
+D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Register.resources
