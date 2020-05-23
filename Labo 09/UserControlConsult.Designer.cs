@@ -99,11 +99,13 @@ namespace Labo_09
             // 
             // dataGridViewConsult
             // 
+            this.dataGridViewConsult.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewConsult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tableLayoutConsult.SetColumnSpan(this.dataGridViewConsult, 5);
             this.dataGridViewConsult.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewConsult.Location = new System.Drawing.Point(3, 93);
             this.dataGridViewConsult.Name = "dataGridViewConsult";
+            this.dataGridViewConsult.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataGridViewConsult.RowTemplate.Height = 24;
             this.dataGridViewConsult.Size = new System.Drawing.Size(423, 266);
             this.dataGridViewConsult.TabIndex = 3;

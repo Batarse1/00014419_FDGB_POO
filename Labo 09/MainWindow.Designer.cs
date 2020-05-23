@@ -62,13 +62,14 @@
             // 
             // btnEstudiante
             // 
+            this.btnEstudiante.BackColor = System.Drawing.Color.Transparent;
             this.btnEstudiante.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEstudiante.Location = new System.Drawing.Point(3, 3);
             this.btnEstudiante.Name = "btnEstudiante";
             this.btnEstudiante.Size = new System.Drawing.Size(194, 84);
             this.btnEstudiante.TabIndex = 0;
             this.btnEstudiante.Text = "Estudiante\r\n";
-            this.btnEstudiante.UseVisualStyleBackColor = true;
+            this.btnEstudiante.UseVisualStyleBackColor = false;
             this.btnEstudiante.Click += new System.EventHandler(this.btnEstudiante_Click);
             // 
             // btnMateria
@@ -106,7 +107,7 @@
             // 
             // userControlStudent1
             // 
-            this.userControlStudent1.BackColor = System.Drawing.Color.Transparent;
+            this.userControlStudent1.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutMainWindow.SetColumnSpan(this.userControlStudent1, 4);
             this.userControlStudent1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.userControlStudent1.Location = new System.Drawing.Point(3, 93);
@@ -118,6 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutMainWindow);
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
