@@ -10,3 +10,15 @@ D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.MainWindow.resou
 D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Login.resources
 D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csproj.CopyComplete
 D:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Register.resources
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\bin\Debug\Labo_08.exe.config
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\bin\Debug\Labo_08.pdb
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csprojAssemblyReference.cache
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Login.resources
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.MainWindow.resources
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Properties.Resources.resources
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.Register.resources
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csproj.GenerateResource.cache
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csproj.CoreCompileInputs.cache
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo 08.csproj.CopyComplete
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.exe
+C:\Repositories\POO0120-FDGB-00014419\Labo 08\obj\Debug\Labo_08.pdb
